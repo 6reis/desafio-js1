@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>C. el total</title>
+</head>
+
+<body>
+  <div class="card">
+    <img src="assets/img/lenovo.jpg" alt="laptop" />
+    <div class="card-body">
+      <h3>Laptop lenovo</h3>
+      <input id="p-cantidad" type="number" pattern="^[0-9]" min="0" placeholder="Cantidad" />
+      <input type="color" name="Color" id="colorSelect" />
+      <p id="precio"><b>Precio: 400000</b></p>
+      <div class="card-footer">
+        <button id="btn"><b>Calcular total</b></button>
+      </div>
+    </div>
+  </div>
+  <div class="totales">
+    <p id="valor-total">Total: $0</p>
+    <p id="total-cantidad">Cantidad: 0</p>
+    <div class="circle-container">
+      <p>Color:</p>
+      <div class="circle" id="colorCircle"></div>
+    </div>
+  </div>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
